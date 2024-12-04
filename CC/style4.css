@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77C1E3 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-container {  
+    display: flex;  
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #110f0f;
+    padding: 10px 0;   
+}
+
+.nav-item {  
+    text-decoration: none;  
+    color: #eaf0f5;  
+    padding: 10px 20px;  
+}
+
+.nav-item:hover {  
+    background-color: #398fe4;
+}
+
+main {
+    margin-left: 210px;
+    padding: 0px 10px;
+}
+
+footer {  
+    background-color: #333;  
+    color: #fff;   
+    padding: 20px 0;   
+    text-align: center; 
+}  
+
+.footer-container {  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 0 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-media img {  
+    width: 30px; 
+    height: 30px;  
+    margin: 0 10px; 
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap; /* 如果空间不足则换行 */
+    justify-content: center; /* 水平居中 */
+    gap: 40px; /* 增加菜品之间的间距 */
+}
+
+.menu-item {
+    flex: 1 1 calc(33.333% - 80px); /* 三列布局，每项占据约三分之一宽度减去更大的间距 */
+    box-sizing: border-box; /* 确保边框和内边距包含在元素的总宽度/高度之内 */
+    text-align: center; /* 文本居中 */
+    padding: 20px; /* 增加内边距以提供更多的内部空间 */
+    border: 1px solid #ddd; /* 添加边框以区分每个菜品项 */
+    border-radius: 8px; /* 圆角边框 */
+    background-color: #f9f9f9; /* 背景颜色 */
+}
+
+.menu-item:hover {  
+    transform: translateY(-5px);  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+}
+
+.menu-item h2 {  
+    margin-bottom: 10px;  
+    font-size: 1.2em;  
+    color: #333;  
+}
+
+.menu-item p {  
+    color: #666;  
+    font-size: 0.9em;  
+}
+
+.yutu {
+    position: absolute;
+    top: 30px;
+    left: 550px;
+}
+
+.home p, .home h2 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.home img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;   
+    align-items: center; 
+    text-align: center; 
+}
+.page2-C{
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color:#ccc;
+  }
